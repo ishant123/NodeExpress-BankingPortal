@@ -6,4 +6,4 @@ router.get('/savings',(req,res)=>res.render('account',{account : accounts.saving
 router.get('/checking',(req,res)=>res.render('account',{account: accounts.checking}));
 router.get('/credit',(req,res)=>res.render('account',{account: accounts.credit}));
 
-module.exports.router = router;
+module.exports = router;
